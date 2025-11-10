@@ -9,12 +9,12 @@ html{
 }
 @media (max-width:550px) {
     html{
-    font-size: 40.5%;
+    font-size: 50.5%;
 }
 }
 @media (max-width:400px) {
     html{
-    font-size: 30.5%;
+    font-size: 40.5%;
 }
 }
 .container{
@@ -71,8 +71,8 @@ ul li{
 }
 ul li::before{
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     position: absolute;
     top: .5rem;
     left: -3rem;
@@ -85,9 +85,12 @@ ul li.checked{
 ul li.checked::before{
     background-image: url(checked.jpg);
 }
+@media (max-width:552px) {
+    
+}
 ul li span{
     position: absolute;
-    right: -9px;
+    right: -.9rem;
     margin-right: 2rem;
     font-size: 2rem;
     top: 0;
