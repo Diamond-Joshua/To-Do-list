@@ -21,7 +21,7 @@ html{
     width: 100%;
     min-height: 100vh;
     padding: 2rem;
-    background: linear-gradient(135deg, #40e0d0, #108dc7);
+    background: green;
 }
 .toDo{
     background-color: #fff;
@@ -84,9 +84,6 @@ ul li.checked{
 }
 ul li.checked::before{
     background-image: url(checked.jpg);
-}
-@media (max-width:552px) {
-    
 }
 ul li span{
     position: absolute;
