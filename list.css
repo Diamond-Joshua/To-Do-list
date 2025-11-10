@@ -21,7 +21,7 @@ html{
     width: 100%;
     min-height: 100vh;
     padding: 2rem;
-    background: green;
+    background: linear-gradient(135deg, #40e0d0, #108dc7);
 }
 .toDo{
     background-color: #fff;
